@@ -1,14 +1,14 @@
 import React from 'react'
 import ContactUs from '../components/core/ContactUs'
-import MyMap from '../components/Google-Map';
+// import MyMap from '../components/Google-Map';
 
 
 
 
 const Contact = () => {
 
-  const googleMapLink =
-    'https://www.google.com/maps/place/Webskitters+Technology+Solutions+Pvt.+Ltd./@22.5752084,88.4248596,17z/data=!3m1!4b1!4m6!3m5!1s0x3a0275927b0061ad:0x496c2fab98874c86!8m2!3d22.5752084!4d88.4274345!16s%2Fg%2F12mj7h6sj?entry=ttu';
+  // const googleMapLink =
+  //   'https://www.google.com/maps/place/Webskitters+Technology+Solutions+Pvt.+Ltd./@22.5752084,88.4248596,17z/data=!3m1!4b1!4m6!3m5!1s0x3a0275927b0061ad:0x496c2fab98874c86!8m2!3d22.5752084!4d88.4274345!16s%2Fg%2F12mj7h6sj?entry=ttu';
 
 
   return (
@@ -62,7 +62,7 @@ const Contact = () => {
 <ContactUs/>
 
 
-<MyMap googleMapLink={googleMapLink} />
+{/* <MyMap googleMapLink={googleMapLink} /> */}
     </div>
   )
 }
