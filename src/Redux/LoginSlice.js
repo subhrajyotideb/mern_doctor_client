@@ -63,7 +63,7 @@ export const LogSlice=createSlice({
         })
         .addCase(login.rejected, (state, action) => {
           state.loading = false;
-          toast.error("Wrong Email or Password",{
+          toast.error("Wrong Email or Password or User is not verified!",{
             position: toast.POSITION.TOP_CENTER,
           });
         });
